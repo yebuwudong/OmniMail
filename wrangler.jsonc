@@ -17,17 +17,22 @@
   "d1_databases": [
     {
       "binding": "DB",
+      "database_id": "e679a0ba-1a96-4a74-9fac-20f9e5f03757",
+      "database_name": "omni-mail-db",
       "migrations_dir": "migrations",
       "migrations_table": "d1_migrations"
     }
   ],
   "r2_buckets": [
     {
-      "binding": "MAIL_BUCKET"
+      "binding": "MAIL_BUCKET",
+      "bucket_name": "omni-mail",
+      "preview_bucket_name": "omni-mail-preview"
     },
     {
       "binding": "BACKUP_BUCKET",
-      "bucket_name": "omni-mail-backups"
+      "bucket_name": "omni-mail-backups",
+      "preview_bucket_name": "omni-mail-backups-preview"
     }
   ],
   "workflows": [
